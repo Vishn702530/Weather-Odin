@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+form{
+    margin-left: 43%;
+    margin-top: 4%;
+}
+.container{
+ height: 800px;
+ background-image: url('https://cdn.dribbble.com/users/1108089/screenshots/2955959/dribbble.gif');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.weather-box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 140px;
+    padding-right: 70px;
+}
+.city, .weather, .temp{
+    font-size: xx-large;
+}
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+button{
+    margin-left: 50px;
+    width: 90px;
+    background-color: rgb(98, 141, 34);
+    border-radius: 7px;
+    border: 1px solid black;
+    height: 20px;
+    color: white;
+}
